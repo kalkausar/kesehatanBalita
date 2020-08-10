@@ -41,6 +41,7 @@ Route::post('/deleteData/{id}', 'ManageAdminController@deleteData');
 //Cluster
 Route::get('/cluster', 'ManageAdminController@cluster');
 Route::post('/postCluster','ManageAdminController@postCluster');
+Route::post('/deleteCluster/{id}','ManageAdminController@deleteCluster');
 //dataMentah
 Route::get('/dataMentah', 'ManageAdminController@dataMentah');
 Route::get('/addDataMentah', 'ManageAdminController@addDataMentah');

@@ -186,6 +186,14 @@ class ManageAdminController extends Controller
       return Redirect::back();
     }
 
+    public function deleteCluster($id){
+      $manages = ManageCluster::find($id);
+
+      $manages->delete();
+      alert()->success('Penghapusan Cluster Berhasil.', 'Berhasil!');
+      return Redirect::back();
+    }
+
     public function dataMentah(){
       $data = DB::table('data_mentah')
                 ->join('kabupaten','data_mentah.kabupaten_id','=','kabupaten.id')

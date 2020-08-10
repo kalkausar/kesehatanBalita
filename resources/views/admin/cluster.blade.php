@@ -68,10 +68,7 @@
                                         @endif
                                       <td>
                                           <div class="btn-group-Vertical">
-                                              <a href="{{url('/editData/')}}/{{$d->id}}" class="btn btn-primary">
-                                                  <i class="fas fa-pen-square"></i>
-                                              </a>
-                                              <form class="" action="{{url('/deleteData/')}}/{{$d->id}}" method="post">
+                                              <form class="" action="{{url('/deleteCluster/')}}/{{$d->id}}" method="post">
                                                   {{csrf_field()}}
                                                   <button type="submit" class="btn btn-danger">
                                                       <i class="fas fa-trash-alt"></i>
@@ -146,7 +143,7 @@
 <!-- page script -->
 <script>
     $(function() {
-        $("#example").Data ClusterTable({
+        $("#example").DataTable({
             "responsive": true,
             "autoWidth": false,
         });
