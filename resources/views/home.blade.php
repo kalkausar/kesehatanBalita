@@ -5,9 +5,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
-                <h4>Caring for better life</h4>
-                <h1>Leading the way in medical excellence</h1>
-                <p>Earth greater grass for good. Place for divide evening yielding them that. Creeping beginning over gathered brought.</p>
+                <h4>Selamat Datang di</h4>
+                <h1>Portal Data Sebaran Pneumonia</h1>
+                <p>Sebuah portal berisikan informasi mengenai peenyebaran kasus peunomonia pada balita pada kabupaten atau kota di setiap tahunnya</p>
             </div>
         </div>
     </div>
@@ -21,7 +21,7 @@
             <div class="col-lg-6 offset-lg-3">
                 <div class="section-top text-center">
                     <h2>Informasi Medis Terbaru</h2>
-                    <p>Green above he cattle god saw day multiply under fill in the cattle fowl a all, living, tree word link available in the service for subdue fruit.</p>
+                    <p>Temukan informasi medis terbaru mengenai kesehatan balita dari sumber terpercaya.</p>
                 </div>
             </div>
         </div>

@@ -4,9 +4,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 d-md-flex">
-                    <h6 class="mr-3"><span class="mr-2"><i class="fa fa-mobile"></i></span> call us now! +1 305 708 2563</h6>
-                    <h6 class="mr-3"><span class="mr-2"><i class="fa fa-envelope-o"></i></span> medical@example.com</h6>
-                    <h6><span class="mr-2"><i class="fa fa-map-marker"></i></span> Find our Location</h6>
+                    <h6 class="mr-3"><span class="mr-2"><i class="fa fa-envelope-o"></i></span> nurulpratiwi160@gmail.com</h6>
+                    <h6><span class="mr-2"><i class="fa fa-user"></i></span> Nurul Pratiwi</h6>
                 </div>
             </div>
         </div>
@@ -15,7 +14,7 @@
         <div class="container">
             <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
-                    <a href="{{url('/')}}"><img src="{{url('assets/images/logo/logo.png')}}" alt="logo" title="logo" /></a>
+                    <a href="{{url('/')}}"> <h3>Pneumonia</h3> </a>
                 </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">

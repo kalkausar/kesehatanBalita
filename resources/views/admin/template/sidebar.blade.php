@@ -39,6 +39,14 @@
                         </p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="{{url('/dataMentah')}}" class="nav-link">
+                        <i class="nav-icon fas fa-database"></i>
+                        <p>
+                            Penginputan Data Mentah
+                        </p>
+                    </a>
+                </li>
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-database"></i>
@@ -61,14 +69,6 @@
                             </a>
                         </li>
                     </ul>
-                </li>
-                <li class="nav-item">
-                    <a href="{{url('/dataMentah')}}" class="nav-link">
-                        <i class="nav-icon fas fa-database"></i>
-                        <p>
-                            Penginputan Data Mentah
-                        </p>
-                    </a>
                 </li>
                 <li class="nav-item">
                     <a href="{{url('/logout')}}" class="nav-link">

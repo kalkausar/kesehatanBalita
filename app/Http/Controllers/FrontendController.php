@@ -12,13 +12,13 @@ use Illuminate\Http\Request;
 class FrontendController extends Controller
 {
     public function index(){
-      $news = ManageNews::where('status','=','1')->limit(3)->get();
+      $news = ManageNews::where('status','=','1')->orderBy('created_at','desc')->limit(3)->get();
       // dd($news);
       return view('home')->with(compact('news'));
     }
 
     public function informasi(){
-      $news = ManageNews::where('status','=','1')->limit(3)->get();
+      $news = ManageNews::where('status','=','1')->orderBy('created_at','desc')->get();
 
       return view('informasi')->with(compact('news'));
     }
